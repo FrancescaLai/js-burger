@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Burger</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Create your Burger</h1>
+    </header>
+    <main>
+      <div class="burger-name">
+        <input id="burger-name-input" type="text" placeholder="Name Your Burger">
+      </div>
+      <h2>Ingredients</h2>
+      <div class="ingredients">
+        <ul class="left-list ingredients-list">
+          <li>
+            <label for="cheese"> Cheese
+              <input id="cheese" type="checkbox"> add
+            </label>
+          </li>
+          <li>
+            <label for="eggs"> Eggs
+              <input id="eggs" type="checkbox"> add
+            </label>
+          </li>
+          <li>
+            <label for="mustard"> Mustard
+              <input id="mustard" type="checkbox"> add
+            </label>
+          </li>
+        </ul>
+        <ul class="right-list ingredients-list">
+          <li>
+            <label for="tomato"> Tomato
+              <input id="tomato" type="checkbox"> add
+            </label>
+          </li>
+          <li>
+            <label for="lettuce"> Lettuce
+              <input id="lettuce" type="checkbox"> add
+            </label>
+          </li>
+          <li>
+            <label for="ketchup"> Ketchup
+              <input id="ketchup" type="checkbox"> add
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="discount">
+        <p>Discount Coupon</p>
+        <input id="coupon" type="text" placeholder="Inserisci il tuo coupon">
+      </div>
+      <div class="calculator">
+        <button type="button" name="button">Calculate</button>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <p>Your Price</p>
+        <p>50€</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>

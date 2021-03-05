@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff5e2;
+}
+
+.container{
+  max-width: 800px;
+  background-color: white;
+}
+
+/* Header */
+header{
+  background-color: #fdbb40;
+  padding: 60px 30px 30px;
+}
+/* /Header */
+
+/* Main */
+main{
+  padding: 40px;
+}
+
+#burger-name-input{
+  border: 0px solid;
+  font-size: 17px;
+}
+
+.ingredients{
+  max-width: 80%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingredients-list{
+  margin-top: 20px;
+  list-style: none;
+}
+/* /Main */
+
+
+
+/* Footer */
+footer{
+  background-color: #D33359;
+  padding: 30px 40px;
+}
+/* /Footer */
