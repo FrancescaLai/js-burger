@@ -30,24 +30,51 @@ main{
   font-size: 17px;
 }
 
+/* Ingredients */
+h2{
+  margin-top: 10px;
+}
+
 .ingredients{
   max-width: 80%;
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
 }
 
 .ingredients-list{
-  margin-top: 20px;
+  margin-top: 5px;
   list-style: none;
 }
+/* /Ingredients */
+
+/* Coupon */
+.discount{
+  margin-top: 30px;
+}
+
+#coupon{
+  display: inline-block;
+}
+
+.calculator{
+  text-align: center;
+}
+/* /Coupon */
+
 /* /Main */
 
 
 
 /* Footer */
 footer{
+  margin-top: 60px;
   background-color: #D33359;
   padding: 30px 40px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
 }
 /* /Footer */
