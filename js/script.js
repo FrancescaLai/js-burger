@@ -6,8 +6,8 @@ Aggiungo il coupon e calcolo sconto */
 var calcolatore = document.getElementById('calculate');
 var burgerName = document.getElementById('burger-name-input');
 var ingredients = document.getElementsByClassName("check");
-var somma = 50;
-var coupons = ["abc", "cba", "123"];
+var somma = 15;
+var coupons = ["ACX56B", "BT8X1S", "KLJ37V"];
 var coupon = document.getElementById('coupon-input');
 var percentualeSconto = 0.2;
 var total = document.getElementById('totale');
@@ -30,7 +30,7 @@ calculate.addEventListener("click",
       somma -= somma * 0.2;
     }
     // Stampo nella pagina il totale
-    total.innerHTML = somma.toFixed(2) + "€";
+    total.innerHTML = "Final Price: " + somma.toFixed(2) + "€";
   } else {
     alert("Inserisci nome burger")
   }

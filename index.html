@@ -4,72 +4,88 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Rubik&display=swap" rel="stylesheet">
+
+
   <title>Burger</title>
 
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <div class="container">
+  <!-- Header -->
     <header>
       <h1>Create your Burger</h1>
     </header>
+    <!-- Header -->
+
+    <!-- Main -->
     <main>
       <div class="burger-name">
-        <input id="burger-name-input" type="text" placeholder="Name Your Burger">
+        <input class="burger-input" id="burger-name-input" type="text" placeholder="Name Your Burger">
       </div>
-      <h2>Ingredients</h2>
+      <h2>Your favourite ingredients for €1:</h2>
       <div class="ingredients">
         <ul class="left-list ingredients-list">
           <li>
-            <label for="cheese"> Cheese
-              <input class="check" id="cheese" type="checkbox" value="2"> add
+            <label for="cheese">
+              <img src="img/cheese.svg" alt="">
+              <input class="check" id="cheese" type="checkbox" value="1"> add
             </label>
           </li>
           <li>
-            <label for="eggs"> Eggs
-              <input class="check" id="eggs" type="checkbox" value="3"> add
+            <label for="eggs">
+              <img src="img/fried-egg.svg" alt="">
+              <input class="check" id="eggs" type="checkbox" value="1"> add
             </label>
           </li>
           <li>
-            <label for="mustard"> Mustard
-              <input class="check" id="mustard" type="checkbox" value="0.5"> add
+            <label for="mustard">
+              <img src="img/mustard.svg" alt="">
+              <input class="check" id="mustard" type="checkbox" value="1"> add
             </label>
           </li>
         </ul>
         <ul class="right-list ingredients-list">
           <li>
-            <label for="tomato"> Tomato
-              <input class="check" id="tomato" type="checkbox" value="2"> add
+            <label for="tomato">
+              <img src="img/tomato.svg" alt="">
+              <input class="check" id="tomato" type="checkbox" value="1"> add
             </label>
           </li>
           <li>
-            <label for="lettuce"> Lettuce
+            <label for="lettuce">
+              <img src="img/lettuce.svg" alt="">
               <input class="check" id="lettuce" type="checkbox" value="1"> add
             </label>
           </li>
           <li>
-            <label for="ketchup"> Ketchup
-              <input class="check" id="ketchup" type="checkbox" value="0.5"> add
+            <label for="ketchup">
+              <img src="img/ketchup.svg" alt="">
+              <input class="check" id="ketchup" type="checkbox" value="1"> add
             </label>
           </li>
         </ul>
       </div>
       <div class="discount">
-        <p>Discount Coupon</p>
-        <input class="check" id="coupon-input" type="text" placeholder="Inserisci il tuo coupon">
+        <h3>Get a 20% discount</h3>
+          <p>Try one of these: ACX56B or BT8X1S or KLJ37V</p>
+        <input class="check burger-input" id="coupon-input" type="text" placeholder="Your coupon HERE">
       </div>
       <div class="calculator">
         <button id="calculate" type="button" name="button">Calculate</button>
       </div>
     </main>
+    <!-- Main -->
+
+    <!-- Footer  da vedere se togliere footer e fare semplice div-->
     <footer>
-      <div class="footer-container">
-        <p>Your Price</p>
-        <div id="totale">50€</div>
+      <div>
+        <p id="totale">Starting Price: 15€</p>
       </div>
     </footer>
-  </div>
+    <!-- Footer -->
 
   <script src="js/script.js" charset="utf-8"></script>
 </body>
